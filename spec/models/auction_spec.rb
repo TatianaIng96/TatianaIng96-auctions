@@ -9,7 +9,7 @@ RSpec.describe Auction, :type => :model do
     described_class.new(title: "Anything",
                         description: "Lorem ipsum",
                         start_date: DateTime.now,
-                        end_date: DateTime.now + 1.week
+                        end_date: DateTime.now + 1.week,
                         user_id: 1)
   }
 
